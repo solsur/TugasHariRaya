@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tugas_empatAct">
+
+        <View
+            android:id="@+id/view_"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:background="@drawable/bg_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        <TextView
+            android:id="@+id/tugas_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/mregular"
+            android:text="@string/menjumlahkan_nilai_array_ganjil"
+            android:textAlignment="center"
+            android:textColor="#FFFF"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            android:background="#EDEDED"
+            app:layout_constraintTop_toBottomOf="@id/tugas_4"/>
+
+        <EditText
+            android:id="@+id/et_angka_batas"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:inputType="number"
+            android:background="@drawable/bg_boxbtn"
+            android:hint="@string/masukkan_batas"
+            app:layout_constraintTop_toBottomOf="@id/line1"/>
+
+        <EditText
+            android:id="@+id/et_angka_array"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/bg_boxbtn"
+            android:hint="@string/masukkan_nilai_array_ex_1_2_3_4"
+            app:layout_constraintTop_toBottomOf="@id/et_angka_batas"/>
+
+
+        <Button
+            android:id="@+id/btn_jumlah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginTop="24dp"
+            android:text="Generate"
+            android:textColor="#fff"
+            android:background="@drawable/bg_button"
+            android:fontFamily="@font/mregular"
+            app:layout_constraintTop_toBottomOf="@id/et_angka_array"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="315dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_jumlah">
+
+            <TextView
+                android:id="@+id/jumlah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/bg_button"
+                android:fontFamily="@font/mregular"
+                android:gravity="center"
+                android:text="Hasil"
+                android:textColor="#ffff"
+                android:textSize="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/view3" />
+
+
+        </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

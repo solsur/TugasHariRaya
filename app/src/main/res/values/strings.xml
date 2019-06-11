@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Tugas Hari Raya</string>
+    <string name="text1">int * random_arr(int size): adalah fungsi yang akan mengembalikan nilai array of integer sebanyak nilai yang diberikan pada parameter size, serta array tersebut dengan nilai random* antara 0 – 100.</string>
+    <string name="tugas_1">Tugas 1</string>
+    <string name="text2">int * number_factors (int number): adalah fungsi rekursif yang menerima satu parameter integer dan mengembalikan array faktor dari parameter tersebut. Fungsi melakukan perulangan untuk mencari angka yang dapat membagi habis parameter number dan mengembalikannya.  Contoh:\n
+
+        number_factors(5) // -> {5, 1} \n
+        number_factors(6) // -> {6, 3, 2, 1} \n
+        number_factors(10) //-> {10, 5, 2, 1}</string>
+
+    <string name="text3">int get_fpb(int num1, int num2): adalah fungsi rekursif yang akan mengembalikan nilai FPB dari parameter num1 dan num2. \nContoh: \n
+
+        get_fpb(15, 30) // -> 15 \n
+        get_fpb(36, 24) // -> 12 \n
+        get_fpb(6, 9) // -> 3\n</string>
+
+    <string name="text4">int count_odds(int *data, int size): adalah fungsi rekursif yang akan menghitung dan mengembalikan berapa banyak angka ganjil yang terdapat pada array of integer yang diberikan pada parameter 1. Contoh:
+
+        \ncount_odds({5, 6, 7, 8, 9, 10, 11, 12, 13}) // -> 5\n
+        count_odds({7, 4, 8, 16, 9, 22, 14, 20, 21}) // -> 3</string>
+    <string name="tugas_2">Tugas 2</string>
+    <string name="tugas_3">Tugas 3</string>
+    <string name="cek_yuk">Cek Hasil Yuk!! >>> </string>
+    <string name="tugas_4">Tugas 4</string>
+    <string name="tugas_hari_raya">Tugas Hari Raya</string>
+    <string name="faizal_surya_prabowo">Nama  : Faizal Surya Prabowo</string>
+    <string name="NIM">NIM\t\t: A11.2018.11239</string>
+    <string name="masukkan_nilai_minimal">Masukkan Nilai Minimal</string>
+    <string name="masukkan_nilai_maksimal">Masukkan Nilai Maksimal</string>
+    <string name="masukkan_nilai">Masukkan Nilai</string>
+    <string name="masukkan_angka_kedua">Masukkan Angka Kedua</string>
+    <string name="masukkan_angka_pertama">Masukkan Angka Pertama</string>
+    <string name="mencetak_nilai_fpb">Mencetak Nilai FPB</string>
+    <string name="mencetak_angka_factor">Mencetak Angka Factor</string>
+    <string name="mencetak_nilai_random">Mencetak Nilai random</string>
+    <string name="masukkan_nilai_array_ex_1_2_3_4">masukkan nilai array, ex : 1,2,3,4...</string>
+    <string name="masukkan_batas">Masukkan Batas array</string>
+    <string name="menjumlahkan_nilai_array_ganjil">Menjumlahkan nilai Array Ganjil</string>
+</resources>
